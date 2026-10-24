@@ -11,26 +11,32 @@ remédios sem receita, os cuidados e quando é hora de procurar um médico.
 
 ## Páginas
 
-| Arquivo | Conteúdo |
-|---|---|
-O site tem 6 páginas:
+O site tem 6 páginas, todas dentro da pasta `html/`:
 
 | Arquivo | Conteúdo |
 |---|---|
-| `index.html` | Página inicial com os sintomas, as tarjas dos remédios, cuidados gerais e telefones úteis |
-| `enjoo.html` | Enjoo e vômito |
-| `dor-e-febre.html` | Dor de cabeça e febre (com o alerta sobre dengue) |
-| `azia-gases-colica.html` | Azia, gases e cólica |
-| `diarreia.html` | Diarreia e hidratação |
-| `alergia.html` | Alergia |
+| `html/index.html` | Página inicial com os sintomas, as tarjas dos remédios, cuidados gerais e telefones úteis |
+| `html/enjoo.html` | Enjoo e vômito |
+| `html/dor-e-febre.html` | Dor de cabeça e febre (com o alerta sobre dengue) |
+| `html/azia-gases-colica.html` | Azia, gases e cólica |
+| `html/diarreia.html` | Diarreia e hidratação |
+| `html/alergia.html` | Alergia |
 
 Todas as páginas têm o mesmo menu lateral, então dá para ir de qualquer página para qualquer outra.
 
 ## Organização das pastas
 
-- raiz - páginas do site
-- `css/` - arquivo `estilo.css`, usado por todas as páginas
-- `img/` - ícones em SVG
+```
+guia-remedios/
+├── html/          páginas do site
+├── css/
+│   └── estilo.css usado por todas as páginas
+├── img/           ícones em SVG
+└── README.md
+```
+
+Como as páginas ficam dentro de `html/`, elas usam `../` para chegar no CSS e nas imagens
+(exemplo: `<link rel="stylesheet" href="../css/estilo.css">`).
 
 ## Estrutura das páginas
 
@@ -56,6 +62,7 @@ div#site
 - `:hover` e a classe `ativo` para marcar no menu a página que está aberta
 - `display: block` e `inline-block`
 - Tabelas, listas e imagens
+- Caminhos relativos entre pastas (`../`)
 - `meta viewport` e um ajuste simples para celular com `@media`
 
 ## De onde vieram as informações
@@ -71,7 +78,7 @@ div#site
 git clone https://github.com/Dev-Jhonata-Batista/guia-remedios.git
 ```
 2. Entre na pasta do projeto.
-3. Abra o arquivo `index.html` no navegador (dois cliques no arquivo já funcionam).
+3. Abra o arquivo `html/index.html` no navegador (dois cliques no arquivo já funcionam).
 
 Não é preciso instalar nada.
 
