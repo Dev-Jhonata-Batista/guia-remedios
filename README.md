@@ -9,10 +9,6 @@ remédios sem receita, os cuidados e quando é hora de procurar um médico.
 
 > Este site é só informativo e não substitui a orientação de um médico ou farmacêutico.
 
-## Ver online
-
-[dev-jhonata-batista.github.io/guia-remedios](https://dev-jhonata-batista.github.io/guia-remedios/)
-
 ## Páginas
 
 | Arquivo | Conteúdo |
@@ -70,12 +66,12 @@ div#site
 
 ## Como abrir
 
-1. Clone o repositório:
+1. Clone o repositório (ou baixe o arquivo .zip pelo botão "Code" do GitHub):
 ```bash
 git clone https://github.com/Dev-Jhonata-Batista/guia-remedios.git
 ```
 2. Entre na pasta do projeto.
-3. Abra o arquivo `index.html` no navegador.
+3. Abra o arquivo `index.html` no navegador (dois cliques no arquivo já funcionam).
 
 Não é preciso instalar nada.
 
