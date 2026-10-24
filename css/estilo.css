@@ -1,0 +1,53 @@
+/* ===== Guia Rápido de Remédios - estilo.css ===== */
+
+/* Estilo geral da página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DDE8E4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+/* Caixa que envolve o site inteiro */
+#site {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+/* ===== Cabeçalho ===== */
+#header {
+    background-color: #1E6F5C;
+    color: white;
+    padding: 9px;
+    text-align: center;
+}
+
+/* ===== Conteúdo (junta o menu e o main) ===== */
+#conteudo {
+    background-color: #EAF4F1;
+}
+
+/* ===== Menu lateral ===== */
+#menu {
+    float: left;
+    width: 20%;
+}
+
+/* ===== Conteúdo principal ===== */
+#main {
+    margin-left: 20%;
+    min-height: 450px;
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+}
+
+/* ===== Rodapé ===== */
+#footer {
+    clear: both;
+    background-color: #1E6F5C;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
