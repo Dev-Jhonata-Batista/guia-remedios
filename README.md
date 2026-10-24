@@ -17,13 +17,16 @@ remédios sem receita, os cuidados e quando é hora de procurar um médico.
 
 | Arquivo | Conteúdo |
 |---|---|
-| `index.html` | Página inicial com a tabela de sintomas |
+O site tem 6 páginas:
+
+| Arquivo | Conteúdo |
+|---|---|
+| `index.html` | Página inicial com os sintomas, as tarjas dos remédios, cuidados gerais e telefones úteis |
 | `enjoo.html` | Enjoo e vômito |
 | `dor-e-febre.html` | Dor de cabeça e febre (com o alerta sobre dengue) |
 | `azia-gases-colica.html` | Azia, gases e cólica |
 | `diarreia.html` | Diarreia e hidratação |
 | `alergia.html` | Alergia |
-| `cuidados.html` | Tarjas, cuidados gerais e telefones úteis |
 
 Todas as páginas têm o mesmo menu lateral, então dá para ir de qualquer página para qualquer outra.
 
