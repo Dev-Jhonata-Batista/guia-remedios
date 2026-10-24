@@ -55,8 +55,9 @@ div#site
 
 - Layout com `div` e `id` (header, menu, main e footer)
 - CSS externo em um arquivo só, ligado com `<link rel="stylesheet">`
+- Atributo `style` direto na tag (CSS inline) nos títulos e destaques de cada página
+- Cores em RGB (`rgb(30, 111, 92)`) e em hexadecimal
 - Seletores de tag, de id (`#menu`), de classe (`.alerta`) e de descendente (`#menu a`)
-- Cores em hexadecimal
 - Box model: `margin`, `padding` e `border`
 - `float` e `clear` para montar as colunas
 - `:hover` e a classe `ativo` para marcar no menu a página que está aberta
