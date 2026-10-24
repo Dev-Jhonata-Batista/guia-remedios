@@ -106,10 +106,10 @@ body {
     color: #1E6F5C;
 }
 
-/* Imagem ao lado do título da página */
-.icone-titulo {
-    float: right;
-    margin: 0 0 10px 20px;
+/* Ícone ao lado do título da página */
+#main h2 img {
+    vertical-align: middle;
+    margin-right: 8px;
 }
 
 /* ===== Caixas de destaque ===== */
