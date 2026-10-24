@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia Rápido de Remédios</title>
+    <title>Início - Guia Rápido de Remédios</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     <div id="site">
 
         <div id="header">
-            <h1>Guia Rápido de Remédios</h1>
+            <h1><img src="img/logo.svg" alt="" width="42"> Guia Rápido de Remédios</h1>
+            <p>Remédios de farmácia sem receita, explicados de forma simples</p>
         </div>
 
         <div id="conteudo"><!-- abre a div conteudo -->
 
             <div id="menu">
                 <ul>
-                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html" class="ativo">Início</a></li>
                     <li><a href="enjoo.html">Enjoo e vômito</a></li>
                     <li><a href="dor-e-febre.html">Dor e febre</a></li>
                     <li><a href="azia-gases-colica.html">Azia, gases e cólica</a></li>
@@ -29,13 +30,96 @@
 
             <div id="main">
                 <h2>Bem-vindo!</h2>
-                <p>Em construção.</p>
+
+                <p>
+                    Sabe quando você está com enjoo, dor de cabeça ou azia e não sabe qual
+                    remédio pode tomar? Este site reúne, de forma simples e rápida, os remédios
+                    mais comuns que podem ser comprados <strong>sem receita</strong> na farmácia,
+                    para que serve cada um e quais cuidados ter.
+                </p>
+
+                <div class="rapido">
+                    <h3>Como usar o site</h3>
+                    <ol>
+                        <li>Escolha o seu sintoma no menu ao lado ou na tabela abaixo.</li>
+                        <li>Leia a <strong>resposta rápida</strong> no começo da página.</li>
+                        <li>Confira os cuidados e quando é hora de procurar um médico.</li>
+                    </ol>
+                </div>
+
+                <h3>Escolha o seu sintoma</h3>
+
+                <table class="sintomas">
+                    <tr>
+                        <td>
+                            <img src="img/enjoo.svg" alt="Rosto enjoado" width="80">
+                            <a href="enjoo.html">Enjoo e vômito</a>
+                            <p>Mal-estar no estômago e vontade de vomitar</p>
+                        </td>
+                        <td>
+                            <img src="img/febre.svg" alt="Termômetro" width="80">
+                            <a href="dor-e-febre.html">Dor e febre</a>
+                            <p>Dor de cabeça, dor no corpo e febre</p>
+                        </td>
+                        <td>
+                            <img src="img/azia.svg" alt="Chama de fogo" width="80">
+                            <a href="azia-gases-colica.html">Azia, gases e cólica</a>
+                            <p>Queimação, barriga estufada e cólica</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/diarreia.svg" alt="Gota de água" width="80">
+                            <a href="diarreia.html">Diarreia</a>
+                            <p>Intestino solto e risco de desidratação</p>
+                        </td>
+                        <td>
+                            <img src="img/alergia.svg" alt="Flor com pólen" width="80">
+                            <a href="alergia.html">Alergia</a>
+                            <p>Espirros, nariz escorrendo e coceira</p>
+                        </td>
+                        <td>
+                            <img src="img/cuidados.svg" alt="Escudo com uma cruz" width="80">
+                            <a href="cuidados.html">Cuidados importantes</a>
+                            <p>Tarjas, bula e telefones úteis</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <h3>O que é um remédio "sem receita"?</h3>
+
+                <p>
+                    São os <strong>MIPs</strong> (Medicamentos Isentos de Prescrição). A
+                    <strong>Anvisa</strong>, que controla os remédios no Brasil, tem uma lista
+                    oficial com eles. São remédios para problemas leves e passageiros, e a caixa
+                    deles <strong>não tem tarja</strong> (aquela faixa vermelha ou preta).
+                </p>
+
+                <p>
+                    Mesmo sem receita, eles <strong>não são inofensivos</strong>: podem causar
+                    alergia e fazer mal se forem tomados em excesso ou junto com outros remédios.
+                </p>
+
+                <div class="atencao">
+                    <p>
+                        <strong>Dica:</strong> o farmacêutico pode tirar suas dúvidas de graça na
+                        hora da compra. Sempre conte se você tem alguma doença, se está grávida ou
+                        se já toma outro remédio.
+                    </p>
+                </div>
+
+                <p class="fonte">
+                    As informações deste site foram tiradas da lista oficial de MIPs da Anvisa
+                    (Instrução Normativa nº 285/2024, atualizada pela IN nº 404/2025), das bulas
+                    dos medicamentos e de orientações do Ministério da Saúde.
+                </p>
             </div>
 
         </div><!-- fecha a div conteudo -->
 
         <div id="footer">
-            <p>Guia Rápido de Remédios</p>
+            <p>Este site é informativo e não substitui a orientação de um médico ou farmacêutico.</p>
+            <p>Projeto de Desenvolvimento Front-end para Web - UNIPÊ | Feito por Jhonata Batista</p>
         </div>
 
     </div>
