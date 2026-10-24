@@ -1,0 +1,89 @@
+# Guia Rápido de Remédios
+
+Site informativo sobre remédios de farmácia que podem ser comprados sem receita,
+feito para a atividade da Unidade 2 da disciplina Desenvolvimento Front-end para Web (UNIPÊ).
+
+A ideia é ajudar quem está com um sintoma simples, como enjoo ou dor de cabeça, e não
+sabe qual remédio pode tomar. Cada página mostra uma resposta rápida, uma tabela com os
+remédios sem receita, os cuidados e quando é hora de procurar um médico.
+
+> Este site é só informativo e não substitui a orientação de um médico ou farmacêutico.
+
+## Ver online
+
+[dev-jhonata-batista.github.io/guia-remedios](https://dev-jhonata-batista.github.io/guia-remedios/)
+
+## Páginas
+
+| Arquivo | Conteúdo |
+|---|---|
+| `index.html` | Página inicial com a tabela de sintomas |
+| `enjoo.html` | Enjoo e vômito |
+| `dor-e-febre.html` | Dor de cabeça e febre (com o alerta sobre dengue) |
+| `azia-gases-colica.html` | Azia, gases e cólica |
+| `diarreia.html` | Diarreia e hidratação |
+| `alergia.html` | Alergia |
+| `cuidados.html` | Tarjas, cuidados gerais e telefones úteis |
+
+Todas as páginas têm o mesmo menu lateral, então dá para ir de qualquer página para qualquer outra.
+
+## Organização das pastas
+
+- raiz - páginas do site
+- `css/` - arquivo `estilo.css`, usado por todas as páginas
+- `img/` - ícones em SVG
+
+## Estrutura das páginas
+
+Todas as páginas usam o mesmo layout com `div`, como foi visto em aula:
+
+```
+div#site
+├── div#header      título do site
+├── div#conteudo
+│   ├── div#menu    menu lateral (float: left)
+│   └── div#main    conteúdo da página
+└── div#footer      rodapé
+```
+
+## O que pratiquei
+
+- Layout com `div` e `id` (header, menu, main e footer)
+- CSS externo em um arquivo só, ligado com `<link rel="stylesheet">`
+- Seletores de tag, de id (`#menu`), de classe (`.alerta`) e de descendente (`#menu a`)
+- Cores em hexadecimal
+- Box model: `margin`, `padding` e `border`
+- `float` e `clear` para montar as colunas
+- `:hover` e a classe `ativo` para marcar no menu a página que está aberta
+- `display: block` e `inline-block`
+- Tabelas, listas e imagens
+- `meta viewport` e um ajuste simples para celular com `@media`
+
+## De onde vieram as informações
+
+- Lista de Medicamentos Isentos de Prescrição da Anvisa (IN nº 285/2024, atualizada pela IN nº 404/2025)
+- Bulas dos medicamentos citados
+- Orientações do Ministério da Saúde sobre remédios na suspeita de dengue
+
+## Como abrir
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/Dev-Jhonata-Batista/guia-remedios.git
+```
+2. Entre na pasta do projeto.
+3. Abra o arquivo `index.html` no navegador.
+
+Não é preciso instalar nada.
+
+## Tecnologias
+
+- HTML5
+- CSS3
+
+## Autor
+
+Feito por **Jhonata Batista**, estudante de Ciência da Computação.
+
+- GitHub: [Dev-Jhonata-Batista](https://github.com/Dev-Jhonata-Batista)
+- LinkedIn: [linkedin.com/in/dev-jhon](https://www.linkedin.com/in/dev-jhon)
