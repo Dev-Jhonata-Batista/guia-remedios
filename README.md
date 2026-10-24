@@ -28,15 +28,14 @@ Todas as páginas têm o mesmo menu lateral, então dá para ir de qualquer pág
 
 ```
 guia-remedios/
-├── html/          páginas do site
-├── css/
-│   └── estilo.css usado por todas as páginas
+├── html/          páginas do site (cada uma com o seu CSS)
 ├── img/           ícones em SVG
 └── README.md
 ```
 
-Como as páginas ficam dentro de `html/`, elas usam `../` para chegar no CSS e nas imagens
-(exemplo: `<link rel="stylesheet" href="../css/estilo.css">`).
+O CSS de cada página fica dentro da própria página, na tag `<style>` do `<head>`.
+Como as páginas ficam dentro de `html/`, elas usam `../` para chegar nas imagens
+(exemplo: `<img src="../img/enjoo.svg">`).
 
 ## Estrutura das páginas
 
@@ -54,7 +53,7 @@ div#site
 ## O que pratiquei
 
 - Layout com `div` e `id` (header, menu, main e footer)
-- CSS externo em um arquivo só, ligado com `<link rel="stylesheet">`
+- CSS interno, com a tag `<style>` dentro do `<head>` de cada página
 - Atributo `style` direto na tag (CSS inline) nos títulos e destaques de cada página
 - Cores em RGB (`rgb(30, 111, 92)`) e em hexadecimal
 - Seletores de tag, de id (`#menu`), de classe (`.alerta`) e de descendente (`#menu a`)
