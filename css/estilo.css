@@ -249,3 +249,56 @@ td {
 #footer p {
     margin: 10px;
 }
+
+/* ===== Ajustes para celular (telas pequenas) ===== */
+@media (max-width: 700px) {
+
+    #header h1 {
+        font-size: 24px;
+    }
+
+    /* O menu sai da lateral e vai para cima do conteúdo */
+    #menu {
+        float: none;
+        width: 100%;
+    }
+
+    #menu ul {
+        padding: 10px;
+        text-align: center;
+    }
+
+    #menu li {
+        display: inline-block;
+        margin: 3px;
+    }
+
+    #menu a,
+    #menu a:hover,
+    #menu a.ativo {
+        padding: 8px 10px;
+        border: 1px solid #CDE8DF;
+    }
+
+    #main {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    #main h2 {
+        font-size: 22px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* Na página inicial, cada sintoma fica em uma linha */
+    .sintomas td {
+        display: block;
+        width: auto;
+    }
+}
